@@ -1,0 +1,9 @@
+The file git_commands.txt was different in main and new_branch branches as both had modified it and main had pushed those changes. 
+main branch had the first statement as [[[edited from main branch]]]
+new_branch branch had the first statement as (((edited from new_branch branch)))
+
+this created a conflict while merging as main had pushed its changes
+we resolved the conflict by opening the file in vs code and changed accordingly.
+
+now this copy of file went to both the branches, thus solving the conflict.
+then we committed and pushed the file from main branch
