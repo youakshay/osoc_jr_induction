@@ -1,1 +1,14 @@
-creating merge conflict
+
+1. Git init command: it lets us create a local repository
+syntax: $ git init Demo  
+2. Git remote command: it lets us connect local repository with remote server
+syntax: $ git remote add origin (url)
+3. Git clean: it removes untracked files from the working directory
+4. Git fetch: it downloads a branch from another repository with all its commits and files
+5. Git rebase: it lets us move the branches around to avoid unnecessary merge commits
+6. Git reflog: it keeps track of updates to the tip of branches, allowing us to go back to changesets
+7. Git reset: it allows us to undo the changes to files in the working directory
+8. Git revert: it is used to undo a committed snapshot, in case of a faulty commit
+9. Git rm: it is used to remove files from the working tree and index
+10.Git sparse-checkout: it initializes and modifies a sparse-checkout
+
